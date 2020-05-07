@@ -1,2 +1,2 @@
 # Lexical-and-Syntactic-Analyzer
- programa para reconocer código fuente escrito en un lenguaje de programación básico que incluye estructuras y sentencias de control para representar operaciones aritméticas usando variables y números en base hexadecimal.
+Program to recognize source code written in a basic programming language that includes structures and control statements to represent arithmetic operations using variables and numbers on a hexadecimal basis.
