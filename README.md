@@ -1,6 +1,6 @@
 # Lexical-and-Syntactic-Analyzer
 
-Lexical analyzer
+# Lexical analyzer
 This program will read the text of the source code, written in the MIO programming language (“programa.mio”), and
 identify the lexical units of the language; in case a lexical unit does not belong to the language, it
 will print an error message that includes the line number of the input code file where it is
@@ -36,7 +36,7 @@ Arithmetic operators
  Division (/)
 
 
-Syntactic analyzer.
+# Syntactic analyzer.
 This program will read the sequence of the token file (“program.lex”) to identify the structures
 grammatical of the MIO programming language. As a result, the program will print "Build Successful"
 in case you do not find syntactic errors in the code, or "Error: (type of statement that caused the error)".
