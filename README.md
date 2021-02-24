@@ -49,19 +49,19 @@ Grammar:
 Initial symbol: <PROG>
 Rules:
 <ul>
-  <li> <PROG>  PROGRAMA [id] <SENTS> FINPROG </li>
-  <li> <SENTS>  <SENT> <SENTS> </li>
-  <li> <SENTS>  <SENT> </li>
-  <li> <SENT>  [id] = <ELEM> [op_ar] <ELEM> </li>
-  <li> <SENT>  [id] = <ELEM> </li>
-  <li> <SENT>  SI <COMPARA> ENTONCES <SENTS> SINO <SENTS> FINSI </li>
-  <li> <SENT>  SI <COMPARA> ENTONCES <SENTS> FINSI </li>
-  <li> <SENT>  REPITE <ELEM> VECES <SENTS> FINREP </li>
-  <li> <SENT>  IMPRIME <ELEM> </li>
-  <li> <SENT>  IMPRIME [txt] </li>
-  <li> <SENT>  LEE [id] </li>
-  <li> <SENT>  # [comentario] </li>
-  <li> <ELEM>  [id] </li>
-  <li> <ELEM>  [val] </li>
-  <li> <COMPARA>  [id] [op_rel] <ELEM> </li>
+  <li> < PROG >  PROGRAMA [id] < SENTS > FINPROG </li>
+  <li> < SENTS >  < SENT > < SENTS > </li>
+  <li> < SENTS >  < SENT > </li>
+  <li> < SENT >  [id] = < ELEM > [op_ar] < ELEM > </li>
+  <li> < SENT >  [id] = < ELEM > </li>
+  <li> < SENT >  SI < COMPARA > ENTONCES < SENTS > SINO < SENTS > FINSI </li>
+  <li> < SENT >  SI < COMPARA > ENTONCES < SENTS > FINSI </li>
+  <li> < SENT >  REPITE < ELEM > VECES < SENTS > FINREP </li>
+  <li> < SENT >  IMPRIME < ELEM > </li>
+  <li> < SENT >  IMPRIME [txt] </li>
+  <li> < SENT >  LEE [id] </li>
+  <li> < SENT >  # [comentario] </li>
+  <li> < ELEM >  [id] </li>
+  <li> < ELEM >  [val] </li>
+  <li> < COMPARA > [id] [op_rel] < ELEM > </li>
 </ul>
